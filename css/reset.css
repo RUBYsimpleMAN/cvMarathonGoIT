@@ -1,0 +1,6 @@
+a { text-decoration: none; }
+a, i, img, div, span {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

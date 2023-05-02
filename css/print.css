@@ -1,0 +1,59 @@
+@media print {
+  a { text-decoration: none; }
+  body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8vw;
+    font-weight: 300;
+    line-height: 1.4rem;
+    /* word-wrap: break-word; */
+    /* color: rgb(46, 49, 62); */
+    color: rgb(36, 37, 43);
+  }
+  .wrapper {
+    min-width: 80vw;
+    max-width: 80vw;
+    padding: 0;
+    margin: 0 auto;
+    border-radius: 0;
+    box-shadow: unset;
+  }
+  .beta {
+    display: none;
+  }
+  .person__photo-name {
+    display: flex;
+  }
+  .person__photo img{
+    width: 100%;
+  }
+  .person__photo-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 80%;
+    padding: 0 0 0.5% 3%;
+    margin-right: -10%;
+  }
+  .person__name {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  .person__target {
+    font-style: italic;
+  }
+  .horisontal-line {
+    margin: 4% 0 10%;
+  }
+  .cv__category-title {
+    margin: 6% 2% 2% 10%;
+  }
+  /* .cv__category-string,
+  .person__education-string,
+  .person__language-string {
+    padding: 0.2% 0;
+  } */
+  .willing-string {
+    padding: 4% 0 0 0;
+  }
+}

@@ -1,0 +1,63 @@
+.wrapper {
+  display: flex;
+  /* min-width: 80vw; */
+  max-width: 80vw;
+  padding: 2%;
+  margin: 4% auto;
+  border-radius: 16px;
+  box-shadow: 0 0 24px rgba(108, 118, 160, 0.6);
+}
+.under--name {
+  margin-top: -1.2vh;
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+.person-name {
+  font-family: 'Roboto';
+  font-weight: 200;
+  font-size: 6rem;
+  line-height: 5rem;
+}
+aside {
+  min-width: 20vw;
+  max-width: 20vw;
+  font-family: 'Roboto Condensed';
+  font-weight: 300;
+  text-align: right;
+  background-color: #b3c5da60;
+}
+aside img {
+  width: 100%;
+}
+aside .contacts-skills {
+  padding: 0 2% 0 2%;
+}
+/* aside h3 {
+  padding-left: 6%;
+} */
+aside ul, aside ol {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+.main {
+  padding: 0 0 0 1.2%;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+.cv-block {
+  padding: 3% 0 1% 0;
+}
+.cv-block__card {
+  padding: 1% 0 1% 0;
+}
+.project-string {
+  display: flex;
+  justify-content: space-between;
+}
+.project-string span:nth-child(2) {
+  flex: 1 0;
+  border-bottom: 2px dotted dimgray;
+  height: 1.6em;
+  margin: 0 0.4em;
+}
