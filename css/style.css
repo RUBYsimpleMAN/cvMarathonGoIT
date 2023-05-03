@@ -32,13 +32,10 @@ aside img {
 aside .contacts-skills {
   padding: 0 2% 0 2%;
 }
-/* aside h3 {
-  padding-left: 6%;
-} */
 aside ul, aside ol {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 .main {
   padding: 0 0 0 1.2%;
